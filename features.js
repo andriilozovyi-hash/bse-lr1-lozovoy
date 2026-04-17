@@ -3,7 +3,7 @@
 /**
  * FR-05: Система зберігає API-ключ та показує історію чатів [cite: 8]
  * NFR-S-01: Обов'язкове шифрування/захист ключів (імітація) [cite: 11]
- */
+ */ //some comment
 
 const leanForkApp = {
     storageKey: 'leanfork_api_key',
