@@ -65,7 +65,7 @@ graph LR
     UC2 -. include .-> UC3
 
 
-    ##Крок 4
+
 
 classDiagram
     class User {
@@ -108,7 +108,7 @@ classDiagram
     Node --> AIAgent
 
 
-## Крок 5 
+
 
 sequenceDiagram
     autonumber
