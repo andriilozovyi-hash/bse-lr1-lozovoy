@@ -65,7 +65,8 @@ graph LR
     UC2 -. include .-> UC3
 
 
- Крок 4
+    ##Крок 4
+
 classDiagram
     class User {
         +int id
@@ -103,11 +104,12 @@ classDiagram
     User "1" -- "1" Subscription
     User "1" -- "*" ChatTree
     ChatTree "1" -- "*" Node
-    Node "1" -- "*" Node
+    Node "1" -- "*" Node : children
     Node --> AIAgent
 
 
-## Крок 5
+## Крок 5 
+
 sequenceDiagram
     autonumber
     actor U as Користувач
@@ -125,7 +127,6 @@ sequenceDiagram
     B->>DB: Збереження нового Node
     B-->>F: Дані оновленого дерева
     F-->>U: Візуалізація нової гілки
----
 
 ## Крок 6. Матриця трасовності (Traceability Matrix)
 Ця таблиця пов'язує функціональні вимоги (FR) з елементами UML-моделі, підтверджуючи повне покриття проєкту.
