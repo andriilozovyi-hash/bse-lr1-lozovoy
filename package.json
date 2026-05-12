@@ -1,0 +1,19 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "Проєкт розробляється в межах дисципліни «Основи програмної інженерії». LeanFork вирішує проблему стандартних відповідей ШІ шляхом покращення їх якості за допомогою розгалуженої структури діалогів.",
+  "main": "features.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
