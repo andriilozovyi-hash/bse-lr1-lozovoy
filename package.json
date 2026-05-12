@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "npx jest --coverage"
+  "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
